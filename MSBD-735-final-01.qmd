@@ -1,0 +1,23 @@
+---
+title: "**MSBD 735 - Survival Analysis and Health Disparities in Prostate Cancer Among African Americans**"
+author: "Cyruss Tsurgeon, MS, PhD (Student)"
+date: "`r format(Sys.Date(), '%d %B %Y')`"
+format: 
+  html:
+    toc: false
+  pdf:
+    documentclass: report
+    header-includes: \usepackage[letterpaper, margin=0.75in]{geometry}
+---
+
+```{r echo=FALSE}
+library(TCGAbiolinks)
+library(SummarizedExperiment)
+library(dplyr)
+library(survival)
+library(survminer)
+```
+
+```{r echo=FALSE}
+print('Test.')
+```
