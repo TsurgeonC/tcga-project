@@ -1,7 +1,8 @@
 ---
-title: "**MSBD 735 - Survival Analysis and Health Disparities in Prostate Cancer Among African Americans**"
+title: "**Survival Analysis and Health Disparities in Prostate Cancer Among African Americans**"
+subtitle: "MSBD 735: Advanced Epidemology - Final Project"
 author: "Cyruss Tsurgeon, MS, PhD (Student)"
-date: "`r format(Sys.Date(), '%d %B %Y')`"
+date: today
 format: 
   html:
     toc: false
@@ -10,7 +11,7 @@ format:
     header-includes: \usepackage[letterpaper, margin=0.75in]{geometry}
 ---
 
-```{r echo=FALSE}
+```{r load-libraries, echo=FALSE, message=FALSE, warning=FALSE}
 library(TCGAbiolinks)
 library(SummarizedExperiment)
 library(dplyr)
